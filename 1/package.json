@@ -2,6 +2,7 @@
   "name": "advent-1",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "test",
     "start": "node --experimental-strip-types --experimental-transform-types index.ts"
@@ -10,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/node": "^22.10.1",
     "typescript": "^5.7.2"
   }
 }
